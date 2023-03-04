@@ -1,0 +1,86 @@
+@charset "UTF-8";
+div.login {
+	width: 500px;
+	background-color: #e0e6ec;
+	padding: 5px;
+	border: 1px solid #000000;
+	margin-top: 150px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.login_row {
+	width: 100%;
+	display: table;
+	margin-top: 2px;
+	clear: both;
+}
+
+div.login_label {
+	width: 40%;
+	float: left;
+}
+
+div.login_input_text {
+	width: 60%;
+	float: left;
+}
+
+fieldset.login {
+	width: 300px;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+legend.login {
+	font-weight: bold;
+}
+
+label.login {
+	padding-top: 2px;
+	padding-bottom: 2px;
+	display: inline-block;
+}
+
+input[type=text].login {
+	width: 100%;
+}
+
+input[type=password].login {
+	width: 100%;
+}
+
+input[type=button].login {
+	width: 100px;
+	float: right;
+}
+
+div#login_enter {
+	text-align: center;
+	padding: 15px;
+}
+
+header.login {
+	background-color: #0d4a88;
+	border: 1px solid #000000;
+}
+
+header.login h1, h2, h3 {
+	text-align: center;
+	color: #ffffff;
+	padding: 5px;
+	margin: 0px;
+}
+
+footer.login {
+	background-color: #000000;
+}
+
+footer.login h5 {
+	text-align: center;
+	color: #c0c0c0;
+	padding: 3px;
+	margin: 0px;
+}
