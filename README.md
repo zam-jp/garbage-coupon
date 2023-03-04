@@ -1,5 +1,10 @@
 # Garbage Coupon Web Application
 
+## Desclaimer
+- This web application is only a class project and is in no way officially associated with Kusatsu City Hall.
+- Therefore it is only a mock-up and not a real web portal.
+- It has never been hosted on the internet.
+
 ## Summary
 - This is a project for my PBL3 class. The assignment was to create a web application for a smart city. My group decided to make an online version of the garbage bag (paper) coupon system used in Kusatsu city.
 - This web application was build mostly using Java Server Pages and Java Servlets.
