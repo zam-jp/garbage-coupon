@@ -1,4 +1,4 @@
-This where you will find all the Java source code.
+Java source code will be put in this folder.
 
 ## Package description
 - framework: This package contains the Java source code for the framework I developed.
