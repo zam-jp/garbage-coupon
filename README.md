@@ -9,4 +9,6 @@
 
 ## Folder description
 - src: Java source code will be put into this folder.
-- 
+- data: Database related files will be put into this folder.
+- kusatsu-portal: This folder is the web application folder for Tomcat web server. It contains all the relavant files (excluding Java source code) for the web application.
+
