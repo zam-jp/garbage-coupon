@@ -6,3 +6,7 @@
 - This web application is designed to run specifically on Tomcat web server.
 - This web application was build on a framework that I developed. The framework utilizes the build-in functionality of the Tomcat web server.
 - For this project, I used MySQL as the database.
+
+## Folder description
+- src: Java source code will be put into this folder.
+- 
