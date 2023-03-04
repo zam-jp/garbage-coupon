@@ -1,6 +1,6 @@
 # Garbage Coupon Web Application
 
-## Desclaimer
+## Disclaimer
 - This web application is only a class project and is in no way officially associated with Kusatsu City Hall.
 - Therefore it is only a mock-up and not a real web portal.
 - It has never been hosted on the internet.
