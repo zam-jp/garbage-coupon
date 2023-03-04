@@ -20,7 +20,9 @@
 
 ## Screen captures
 Login page
+
 ![login_page](https://user-images.githubusercontent.com/84988870/222880568-4675efda-8d05-4240-8a4e-7fcfe40483de.jpg)
 
 Garbage bag request page
+
 ![garbage_bag_requests](https://user-images.githubusercontent.com/84988870/222880263-9cc1dc70-736e-41f5-bb21-d01081b4c5f1.jpg)
