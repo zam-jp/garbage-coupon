@@ -1,0 +1,36 @@
+<Context reloadable="true" override="true">
+
+    <!-- Default set of monitored resources -->
+    <WatchedResource>WEB-INF/web.xml</WatchedResource>
+
+	<Resource name="jdbc/kusatsu" 
+        auth="Container" 
+        type="javax.sql.DataSource" 
+        username="root" 
+        password="root" 
+        url="jdbc:mysql://localhost:3306/kusatsu?
+        	useUnicode=true&amp;
+        	characterEncoding=utf8&amp;
+        	autoConnect=true&amp;
+        	zeroDateTimeBehavior=convertToNull&amp;
+        	jdbcCompliantTruncation=false"
+        validationQuery="select 1"
+        maxTotal="8"
+        maxIdle="30"
+        maxWaitMillis="10000" />
+
+	<Realm className="org.apache.catalina.realm.LockOutRealm">
+		<Realm className="org.apache.catalina.realm.DataSourceRealm" 
+			dataSourceName="jdbc/kusatsu" 
+			localDataSource="true"
+			userTable="users" 
+			userNameCol="user_id" 
+			userCredCol="password" 
+			userRoleTable="user_role" 
+			roleNameCol="role_name">
+		
+			<CredentialHandler className="org.apache.catalina.realm.MessageDigestCredentialHandler"
+				algorithm="SHA1" />
+		</Realm>
+	</Realm>
+</Context>
