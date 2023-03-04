@@ -1,0 +1,1 @@
+The sql file in this folder is the database dump from my project. It contains the script to build the required tables for the web application as well as all the test data. You only need to restore it into a MySQl database to use it.
