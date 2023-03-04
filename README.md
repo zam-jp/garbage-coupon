@@ -17,3 +17,6 @@
 - **data**: Database related files will be put into this folder.
 - **kusatsu-portal**: This folder is the web application folder for Tomcat web server. It contains all the relavant files (excluding Java source code) for the web application.
 - **tomcat-config**: Tomcat configuration related files will be put into this folder.
+
+## Screen captures
+![garbage_bag_requests](https://user-images.githubusercontent.com/84988870/222880263-9cc1dc70-736e-41f5-bb21-d01081b4c5f1.jpg)
