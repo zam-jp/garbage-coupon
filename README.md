@@ -19,6 +19,8 @@
 - **tomcat-config**: Tomcat configuration related files will be put into this folder.
 
 ## Screen captures
-Garbage bag request page
+Garbage bag request history
+![garbage_bag_requests_history](https://user-images.githubusercontent.com/84988870/222880803-848ac3db-3a33-43f6-9fb3-df855c2be9a7.jpg)
 
-![garbage_bag_requests](https://user-images.githubusercontent.com/84988870/222880263-9cc1dc70-736e-41f5-bb21-d01081b4c5f1.jpg)
+Garbage bag request form
+![garbage_bag_requests_form](https://user-images.githubusercontent.com/84988870/222880781-2ab04a7d-8fae-4e8c-82b7-de319973f96f.jpg)
